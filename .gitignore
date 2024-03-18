@@ -1,0 +1,11 @@
+node_modules
+.idea
+
+#Hardhat files
+cache
+artifacts
+
+#private keys
+.env
+.secret*
+*secret*

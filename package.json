@@ -1,0 +1,42 @@
+{
+  "name": "bws-erc721-contract",
+  "version": "1.0.0",
+  "description": "BWS ERC721 Contract",
+  "scripts": {
+    "test": "hardhat test",
+    "test:integration": "hardhat test ./integration-test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NomicFoundation/hardhat-boilerplate.git"
+  },
+  "author": "nuwanrg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NomicFoundation/hardhat-boilerplate/issues"
+  },
+  "homepage": "https://github.com/NomicFoundation/hardhat-boilerplate#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.9.1",
+    "dotenv": "^16.1.4"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.2",
+    "@nomicfoundation/hardhat-ethers": "^3.0.4",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.9",
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "@nomicfoundation/hardhat-verify": "^1.1.1",
+    "@typechain/ethers-v6": "^0.4.3",
+    "@typechain/hardhat": "^8.0.3",
+    "@types/chai": "^4.3.6",
+    "@types/mocha": "^10.0.1",
+    "chai": "^4.3.8",
+    "ethers": "^6.7.1",
+    "hardhat": "^2.17.2",
+    "hardhat-gas-reporter": "^1.0.9",
+    "solidity-coverage": "^0.8.4",
+    "ts-node": "^10.9.1",
+    "typechain": "^8.3.1",
+    "typescript": "^5.2.2"
+  }
+}
